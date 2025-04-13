@@ -108,7 +108,9 @@ cd tests
 dotnet test
 ```
 
-Unit and integration tests will validate the behavior of code generation, usage, validation, and TCP communication.
+Unit tests will validate the behavior of code generation, usage, validation, and TCP communication.
+
+NOTE: Methods such as `IsRequestValid, GenerateCodes and UseCode` were made public for the sake of unit tests
 
 ---
 

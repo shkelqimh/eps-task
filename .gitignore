@@ -7,9 +7,9 @@
 [Bb]in/
 [Oo]bj/
 
-*.db
-*.sqlite
-*.sqlite3
+**/*.db
+**/*.sqlite
+**/*.sqlite3
 
 .vscode/
 .vscode/*.code-workspace

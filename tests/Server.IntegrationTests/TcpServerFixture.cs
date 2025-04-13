@@ -17,7 +17,7 @@ public class TcpServerFixture : IAsyncLifetime
         var services = CreateTestServices();
         Server = new DiscountServer(services);
         _ = Task.Run(() => Server.StartAsync(_cts.Token));
-        await Task.Delay(500); // Give it time to start
+        await Task.Delay(500);
     }
 
     public Task DisposeAsync()

@@ -16,7 +16,7 @@ EpsTask/
 │   ├── Infrastructure.Persistence.Sqlite  # SQLite persistence for codes
 │   └── Shared                       # Shared models and enums (e.g. MessageType)
 │
-└── tests/                           # Unit and integration tests
+└── tests/                           # Unit tests
 ```
 
 ---
